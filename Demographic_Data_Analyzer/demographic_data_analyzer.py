@@ -3,7 +3,7 @@ pd.options.mode.chained_assignment = None  # default='warn'
 
 def calculate_demographic_data(print_data=True):
   # Read data from file
-  df = pd.read_csv("adult.data.csv")
+  df = pd.read_csv("C:/Users/Katerina/Documents/GitHub/Data_Analysis/Demographic_Data_Analyzer/adult.data.csv")
   print(df.columns)
   #print(df.shape)
   
