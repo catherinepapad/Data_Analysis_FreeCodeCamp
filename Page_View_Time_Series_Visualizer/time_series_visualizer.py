@@ -46,12 +46,12 @@ def draw_bar_plot():
     df_bar.index, freq="M"))['value'].mean().reset_index()
   #print(df_bar.head())
   df_bar['month'] = df_bar['date'].dt.month
+  df_bar['month'] = df_bar['month'].astype(str)
   df_bar['year'] = df_bar['date'].dt.year
   #print(df_bar.head())
 
   # Draw bar plot
   fig, ax = plt.subplots(figsize=(12, 10))
-  df['month'] = df['month'].astype(str)
   chart = sns.barplot(x='year', y='value', hue='month', data=df_bar)
   chart.set(xlabel='Years', ylabel='Average Page Views')
   plt.xticks(rotation=90)
