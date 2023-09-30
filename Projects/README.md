@@ -1,5 +1,5 @@
 # Data Analysis with Python Projects
-These projects were completed in accordance with the requirements of Free Code Camp "Data Analysis with Python" certificate.
+I completed these projects under the requirements of Free Code Camp "Data Analysis with Python" certificate. 
 
 Project List:
 - Mean-Variance-Standard Deviation Calculator
